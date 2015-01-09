@@ -8,10 +8,10 @@ import java.sql.Statement;
 
 public class MySQLConnectionTest {
 	public void connect() {
-		String dbURL = "jdbc:mysql://admanager.bd.srv.intranet/test";
+		String dbURL = "jdbc:mysql://localhost/test";
 		String dbClass = "com.mysql.jdbc.Driver";
 		String query = "SELECT * FROM ad_manager_adm.action_type";
-		String username = "qa";
+		String username = "root";
 	    String password = "";	
 		try {
 			Class.forName(dbClass);
@@ -28,5 +28,5 @@ public class MySQLConnectionTest {
 	    } catch (SQLException e) {
 	        e.printStackTrace();
 	    }
-	}
+    }
 }
