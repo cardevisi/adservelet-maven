@@ -24,10 +24,10 @@ public class HelloServletHtml extends HttpServlet {
 			PrintWriter out = response.getWriter();
 		    out.println("<html>");
 		    out.println("<head>");
-		    out.println("<title>Primeira Servlet</title>");
+		    out.println("<title>First Servlet</title>");
 		    out.println("</head>");
 		    out.println("<body>");
-		    out.println("<h1 style='font-size:10px;'>Oi mundo Servlet!</h1>");
+		    out.println("<h1>Hello Servlet!</h1>");
 		    out.println("</body>");
 		    out.println("</html>");
 	}
