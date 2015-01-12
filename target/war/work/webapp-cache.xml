@@ -5,9 +5,26 @@
       <path-set>
         <pathsSet class="linked-hash-set">
           <string>index.jsp</string>
+          <string>WEB-INF/dispatcher-servlet.xml</string>
+          <string>WEB-INF/views/helloworld.jsp</string>
           <string>WEB-INF/web.xml</string>
+          <string>WEB-INF/classes/br/com/controller/HelloSpringController.class</string>
+          <string>WEB-INF/classes/br/com/database/MySQLConnectionTest.class</string>
           <string>WEB-INF/classes/br/com/servlet/HelloServletHtml.class</string>
           <string>WEB-INF/classes/br/com/servlet/HelloServletJson.class</string>
+          <string>WEB-INF/lib/sitemesh-2.4.2.jar</string>
+          <string>WEB-INF/lib/bootstrap-2.2.2.jar</string>
+          <string>WEB-INF/lib/jquery-1.8.2.jar</string>
+          <string>WEB-INF/lib/spring-core-4.0.1.RELEASE.jar</string>
+          <string>WEB-INF/lib/commons-logging-1.1.1.jar</string>
+          <string>WEB-INF/lib/spring-web-4.0.1.RELEASE.jar</string>
+          <string>WEB-INF/lib/spring-aop-4.0.1.RELEASE.jar</string>
+          <string>WEB-INF/lib/aopalliance-1.0.jar</string>
+          <string>WEB-INF/lib/spring-beans-4.0.1.RELEASE.jar</string>
+          <string>WEB-INF/lib/spring-context-4.0.1.RELEASE.jar</string>
+          <string>WEB-INF/lib/spring-expression-4.0.1.RELEASE.jar</string>
+          <string>WEB-INF/lib/spring-webmvc-4.0.1.RELEASE.jar</string>
+          <string>WEB-INF/lib/mysql-connector-java-5.1.34.jar</string>
         </pathsSet>
       </path-set>
     </entry>
@@ -34,6 +51,78 @@
         <exclusions/>
         <optional>false</optional>
       </dependency>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>opensymphony</groupId>
+        <artifactId>sitemesh</artifactId>
+        <version>2.4.2</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions/>
+        <optional>false</optional>
+      </dependency>
+      <targetFileName>sitemesh-2.4.2.jar</targetFileName>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>org.webjars</groupId>
+        <artifactId>bootstrap</artifactId>
+        <version>2.2.2</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions/>
+        <optional>false</optional>
+      </dependency>
+      <targetFileName>bootstrap-2.2.2.jar</targetFileName>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-core</artifactId>
+        <version>4.0.1.RELEASE</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions/>
+        <optional>false</optional>
+      </dependency>
+      <targetFileName>spring-core-4.0.1.RELEASE.jar</targetFileName>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-web</artifactId>
+        <version>4.0.1.RELEASE</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions/>
+        <optional>false</optional>
+      </dependency>
+      <targetFileName>spring-web-4.0.1.RELEASE.jar</targetFileName>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-webmvc</artifactId>
+        <version>4.0.1.RELEASE</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions/>
+        <optional>false</optional>
+      </dependency>
+      <targetFileName>spring-webmvc-4.0.1.RELEASE.jar</targetFileName>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>5.1.34</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions/>
+        <optional>false</optional>
+      </dependency>
+      <targetFileName>mysql-connector-java-5.1.34.jar</targetFileName>
     </org.apache.maven.plugin.war.util.DependencyInfo>
   </dependenciesInfo>
 </webapp-structure>
